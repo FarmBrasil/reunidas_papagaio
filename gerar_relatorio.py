@@ -18,13 +18,13 @@ from sklearn.linear_model import LinearRegression
 # ============================================================================
 CLIENTE_ID = 568674 # ID DO CLIENTE (GROWER_ID)
 CLIENTE_NOME = "José Laerte Cardoso Godoi" # NOME DO CLIENTE
-ESTACOES_DO_CLIENTE = ESTACOES_DO_CLIENTE = [
+ESTACOES_DO_CLIENTE = [
     {'name': 'Papagaio 4', 'id_estacao': '80261', 'latitude': -13.4451, 'longitude': -58.4309},
     {'name': 'Bacaval', 'id_estacao': '80397', 'latitude': -13.3778, 'longitude': -58.3785},
     {'name': 'Papagaio - Retiro', 'id_estacao': '80923', 'latitude': -13.5271, 'longitude': -58.4099},
     {'name': 'Papagaio 1', 'id_estacao': '37199', 'latitude': -13.4087, 'longitude': -58.43083},
     {'name': 'Papagaio 2', 'id_estacao': '40323', 'latitude': -13.4653, 'longitude': -58.4172}
-# Define quantos anos de dados históricos buscar
+]
 ANOS_DE_HISTORICO = 2
 # ============================================================================
 
@@ -1051,6 +1051,7 @@ if __name__ == "__main__":
         # Faz o script falhar para que o GitHub Actions reporte o erro
 
         exit(1)
+
 
 
 
