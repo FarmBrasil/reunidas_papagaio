@@ -29,7 +29,7 @@ except ImportError:
 CLIENTE_ID = 568674 # ID DO CLIENTE (GROWER_ID)
 CLIENTE_NOME = "José Laerte Cardoso Godoi" # NOME DO CLIENTE
 ESTACOES_DO_CLIENTE = [
-    {'name': 'Papagaio 4', 'id_estacao': '80261', 'latitude': -13.4451, 'longitude': -58.4309},
+    {'name': 'Papagaio 4', 'id_estacao': '81226', 'latitude': -13.4451, 'longitude': -58.4309},
     {'name': 'Bacaval', 'id_estacao': '80397', 'latitude': -13.3778, 'longitude': -58.3785},
     {'name': 'Papagaio - Retiro', 'id_estacao': '80923', 'latitude': -13.5271, 'longitude': -58.4099},
     {'name': 'Papagaio 1', 'id_estacao': '37199', 'latitude': -13.4087, 'longitude': -58.43083},
